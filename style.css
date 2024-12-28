@@ -7,6 +7,10 @@
     margin-bottom: 1rem;
 }
 
+.wpe-accordion-header:where(.wp-site-blocks :focus) {
+    outline: none;
+}
+
 .wpe-accordion-header {
     display: flex;
     align-items: center;
